@@ -1,0 +1,50 @@
+# General C++ ignores
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.obj
+*.pdb
+*.lib
+*.dll
+*.dylib
+
+# CLion specific
+.idea/
+*.iml
+cmake-build-*/
+
+# CMake specific
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+CMakeLists.txt.user
+
+# Google Test (if installed via Git or as submodule)
+googletest/
+googletest-prefix/
+gtest/
+gmock/
+
+# IDE-specific files
+*.user
+*.suo
+*.userprefs
+
+# Backup and temporary files
+*~
+*.swp
+*.bak
+*.tmp
+
+# OS-specific files
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
